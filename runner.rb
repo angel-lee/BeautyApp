@@ -6,11 +6,11 @@ require "./logic.rb"
 @logic = Logic.new
 
 def run
-	beauty_choice = ""
+    beauty_choice = ""
 
-	@ui.welcome
-	beauty_choice = gets.chomp
-	@logic.question_logic(beauty_choice)
+    @ui.welcome
+    beauty_choice = gets.chomp
+    @logic.question_logic(beauty_choice)
 end
 
 run
